@@ -1,0 +1,17 @@
+{
+  "name": "http-client-wrapper",
+  "version": "1.0.0",
+  "description": "Optimized HTTP client with request deduplication and concurrency control",
+  "main": "src/HttpClient.js",
+  "scripts": {
+    "test": "jest",
+    "demo": "node src/demo.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "p-queue": "^8.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

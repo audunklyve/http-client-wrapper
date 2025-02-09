@@ -1,0 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# JS files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# JSON files
+*.json text
+
+# Markdown files
+*.md text diff=markdown
+
+# Documentation
+*.txt text
+LICENSE text
+
+# NPM files
+package.json text
+package-lock.json text -diff
+
+# Git Config files
+.gitattributes text
+.gitignore text 
